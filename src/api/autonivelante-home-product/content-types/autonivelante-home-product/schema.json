@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autonivelante_home_products",
+  "info": {
+    "singularName": "autonivelante-home-product",
+    "pluralName": "autonivelante-home-products",
+    "displayName": "Autonivelante home product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "characteristics": {
+      "type": "blocks",
+      "required": false
+    }
+  }
+}

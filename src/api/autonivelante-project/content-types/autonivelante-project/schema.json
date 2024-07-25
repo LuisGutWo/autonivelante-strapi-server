@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autonivelante_projects",
+  "info": {
+    "singularName": "autonivelante-project",
+    "pluralName": "autonivelante-projects",
+    "displayName": "Autonivelante Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mt2": {
+      "type": "float",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "year": {
+      "type": "biginteger",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

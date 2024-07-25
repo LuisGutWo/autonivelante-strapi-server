@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autonivelante_products",
+  "info": {
+    "singularName": "autonivelante-product",
+    "pluralName": "autonivelante-products",
+    "displayName": "Autonivelante Product ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "desc2": {
+      "type": "text",
+      "required": false
+    },
+    "desc3": {
+      "type": "text",
+      "required": false
+    },
+    "desc4": {
+      "type": "text",
+      "required": false
+    },
+    "image": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "characteristics": {
+      "type": "blocks"
+    }
+  }
+}
