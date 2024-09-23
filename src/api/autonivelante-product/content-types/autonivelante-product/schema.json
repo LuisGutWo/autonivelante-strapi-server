@@ -49,6 +49,9 @@
     },
     "characteristics": {
       "type": "blocks"
+    },
+    "qty": {
+      "type": "biginteger"
     }
   }
 }

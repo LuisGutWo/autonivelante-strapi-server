@@ -3,6 +3,8 @@
     "moduleResolution": "NodeNext",
     "target": "ES2021",
     "checkJs": true,
-    "allowJs": true
-  }
+    "allowJs": true,
+    "module": "NodeNext"
+  },
+  "validate": false
 }

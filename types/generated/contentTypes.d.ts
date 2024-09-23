@@ -806,6 +806,7 @@ export interface ApiAutonivelanteHomeProductAutonivelanteHomeProduct
     image: Attribute.String & Attribute.Required;
     price: Attribute.Float & Attribute.Required;
     characteristics: Attribute.Blocks;
+    qty: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -850,6 +851,7 @@ export interface ApiAutonivelanteProductAutonivelanteProduct
       'title'
     >;
     characteristics: Attribute.Blocks;
+    qty: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

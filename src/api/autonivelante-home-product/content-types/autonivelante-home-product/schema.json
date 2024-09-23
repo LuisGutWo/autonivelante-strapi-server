@@ -31,6 +31,9 @@
     "characteristics": {
       "type": "blocks",
       "required": false
+    },
+    "qty": {
+      "type": "biginteger"
     }
   }
 }
